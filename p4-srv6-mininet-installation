@@ -1,0 +1,8 @@
+# root user
+sudo su
+git clone https://github.com/netgroup/p4-srv6-usid.git
+
+# install maven
+apt update
+apt install maven
+
