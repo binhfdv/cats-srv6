@@ -1,8 +1,17 @@
 # root user
 sudo su
-git clone https://github.com/netgroup/p4-srv6-usid.git
+git clone https://github.com/opennetworkinglab/ngsdn-tutorial.git
+
+###
+notes for exercises from the above git repo
+te = table_entry["IngressPipeImpl.l2_exact_table"](action = "IngressPipeImpl.set_egress_port")
+
+te.match["hdr.ethernet.dst_addr"] = ("00:00:00:00:00:1B")
+
+te.action["port_num"] = ("4")
+###
 
 # install maven
-apt update
-apt install maven
+#apt update
+#apt install maven
 
