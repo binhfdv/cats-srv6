@@ -56,9 +56,10 @@ route del -net 10.60.0.0/24 gw 192.168.0.20
 ./run.sh
 
 # gnb and ue at worker 2: 
+./build/nr-gnb -c ./config/free5gc-gnb.yaml
 
 # ping from ue to service through upf
-
+./build/nr-ue -c ./config/free5gc-ue.yaml 
 
 ########## using MUP-SRv6
 
