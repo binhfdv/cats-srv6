@@ -14,8 +14,8 @@ te.action["port_num"] = ("4")
 ###
 
 # install maven
-#apt update
-#apt install maven
+apt update
+apt install maven
 
 make netcfg
 make app-reload
