@@ -1,1 +1,2 @@
-#
+# add permission to all users to run the script
+chmod a+x /my_path/my_shell_script
