@@ -67,4 +67,4 @@ route del -net 10.60.0.0/24 gw 192.168.0.20
 route add -net 10.60.0.0/24 gw 192.168.0.20 on worker3
 
 
-
+/nsmf-oam/v1/ue-pdu-session-info/urn:uuid:e27ad1be-8488-4c6c-a3f6-78a91f2379d5
