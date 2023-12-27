@@ -1,5 +1,7 @@
 # root user
-sudo su
+https://linuxconfig.org/allow-ssh-root-login-on-ubuntu-20-04-focal-fossa-linux
+
+
 git clone https://github.com/opennetworkinglab/ngsdn-tutorial.git
 
 ###
