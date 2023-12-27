@@ -24,3 +24,16 @@ docker exec -it  mininet sh
 echo "deb http://archive.debian.org/debian stretch main" > /etc/apt/sources.list && chmod 1777 /tmp && rm -rf /var/lib/apt/lists/* && apt-get update && apt install bridge-utils
 
 bash run.sh
+
+# worker 1
+ping 192.168.1.20
+
+# worker 2
+ping 10.100.200.20
+
+# worker 3
+ping 192.168.0.20
+
+
+
+
